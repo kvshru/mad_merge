@@ -94,7 +94,7 @@
             android:text="@string/no1"
             android:textColor="@android:color/black"
             android:textAlignment="center"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
 
 
@@ -158,28 +158,49 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/r1"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            style="?android:attr/button"
+            />
+
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:orientation="vertical">
-
         <TextView
 
-            android:id="@+id/textView11"
+            android:id="@+id/textView12"
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="100dp"
             android:layout_weight="5"
             android:text="@string/GOLD_PACKAGE"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
             android:textSize="30sp"
+            android:textColor="@android:color/black"
 
             />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="295dp"
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
             android:layout_weight="10"
             android:src="@drawable/pic2"
             android:contentDescription="@string/pic2"/>
@@ -290,8 +311,31 @@
 
 
 
+
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/r2"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            style="?android:attr/button"
+            />
+
+
+    </LinearLayout>
 
 
     <LinearLayout
@@ -300,7 +344,7 @@
         android:orientation="vertical">
         <TextView
 
-            android:id="@+id/textView12"
+            android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_weight="5"
@@ -430,36 +474,44 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:filterTouchesWhenObscured="true"
+            android:focusable="true"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="@string/r3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:inputType="none"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         >
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="@string/r1"
-            android:textColor="@android:color/black"
-             style="?android:attr/buttonBarButtonStyle"/>
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:bufferType="normal"
-            android:text="@string/r2"
+            android:text="@string/NEXT"
             android:textColor="@android:color/black"
-            style="?android:attr/buttonBarButtonStyle"/>
-
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
-            android:text="@string/r3"
-            android:textColor="@android:color/black"
-            style="?android:attr/buttonBarButtonStyle"/>
+            style="?android:attr/button"
+            android:textSize="50sp"/>
 
 
     </LinearLayout>

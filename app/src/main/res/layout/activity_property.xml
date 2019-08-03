@@ -418,21 +418,137 @@
 
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
 
-      <Button
-          android:layout_width="0dp"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"
+        <Button
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:filterTouchesWhenObscured="true"
+            android:focusable="true"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="@string/a1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+            />
 
-          android:text="@string/NEXT"
-          android:textSize="50sp"/>
+
+
 
 
     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:filterTouchesWhenObscured="true"
+            android:focusable="true"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="@string/a2"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:filterTouchesWhenObscured="true"
+            android:focusable="true"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="@string/a3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:filterTouchesWhenObscured="true"
+            android:focusable="true"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="@string/a4"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:inputType="none"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
 
 
 
