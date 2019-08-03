@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Fine Stay</string>
+    <string name="accept">Accept</string>
+    <string name="CheckInMsg">Check In</string>
+    <string name="CheckOutMsg">Check Out</string>
+    <string name="pick_date_in">Check In Date</string>
+    <string name="pick_date_out">Check Out Date</string>
+    <string name="no_of_guests">Number of Guests</string>
+    <string name="enter_no_of_guests">Enter Number of Guests</string>
 </resources>
